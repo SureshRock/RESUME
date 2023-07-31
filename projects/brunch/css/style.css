@@ -1,0 +1,574 @@
+@font-face{
+font-family:font;
+src:url('../fonts/Cookie-Regular.ttf');
+}
+@font-face{
+font-family:font1;
+src:url('../fonts/Raleway-Regular.ttf');
+}
+@font-face{
+font-family:font2;
+src:url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+font-family:font3;
+src:url('../fonts/Roboto-Bold.ttf');
+}
+                               /*section-1*/    
+.brunch {
+    background-image: url('../images/header_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 935px;
+}
+#navbar {
+    justify-content: end;
+}
+a.nav-link{
+    color: #fff;
+}
+.navbar-nav {
+    font-size: 30px;
+}
+.modal-content {
+    top: 190px;
+    background: radial-gradient(white, #fefefe80);
+    border-radius: 0px;
+}
+.modal-body {
+    text-align: center;
+}
+.modal-title {
+    font-family: font;
+    font-size: 75px;
+    line-height: 75px;
+}
+.modal-body h1 {
+    font-family: font1;
+    text-transform: uppercase;
+    color: #ad6c12;
+    font-size: 50px;
+}
+.btn.btn-primary {
+    text-transform: uppercase;
+    color: #000;
+    background: #fff;
+    border: none;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 0px;
+}
+                                      /*section-2*/ 
+.flavour {
+    background: #293b3f;
+}
+.flavour_2 {
+    color: #fff;
+font-family:font1;
+}
+.flavour_2 h1 {
+    font-weight: 600;
+}
+.flavour_2 p {
+    line-height: 28px;
+}
+                                      /*section-3*/
+.circle {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+}
+.circle-1 {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+}
+.circle-2 {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 28px;
+}
+.circle-3 {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+}
+.circle-4 {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 28px;
+}
+.circle-5 {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 28px;
+}
+.tasty-2 {
+    color: #25363b;
+}
+.tasty-3 h5 {
+font-family:font1;
+font-weight: 600;
+}
+.tasty-4 h5 {
+font-family:font1;
+font-weight: 600;
+}
+.tasty-5 h5 {
+font-family:font1;
+font-weight: 600;
+}
+                                  /*section-4*/
+.dishes {
+    background-image: url('../images/india_plate_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+width:100%;
+}
+.dish-1 {
+    background: radial-gradient(white, #dbdbdbb5);
+    
+    text-align: center;
+}
+.dish h1 {
+    font-family: font;
+    font-size: 50px;
+    line-height: 50px;
+}
+.dish p {
+    font-family: font1;
+    text-transform: uppercase;
+    color: #a46106;
+    font-weight: 600;
+    font-size: 30px;
+ line-height: 5px;
+}
+.dish-4 h5 {
+    text-transform: uppercase;
+    font-family: font1;
+    font-weight: 600;
+line-height: 50px;
+}
+.dish-4 p {
+    font-family: font1;
+}
+.dish-4 span {
+    font-family: font1;
+  font-weight: 600;
+}
+.dish-6 h5 {
+    text-transform: uppercase;
+    font-family: font1;
+    font-weight: 600;
+line-height: 50px;
+}
+.dish-6 p {
+    font-family: font1;
+}
+.dish-6 span {
+    font-family: font1;
+  font-weight: 600;
+}
+.dish-8 h5 {
+    text-transform: uppercase;
+    font-family: font1;
+    font-weight: 600;
+line-height: 50px;
+}
+.dish-8 p {
+    font-family: font1;
+}
+.dish-8 span {
+    font-family: font1;
+    font-weight: 600;
+}
+.dish-10 h5 {
+    text-transform: uppercase;
+    font-family: font1;
+    font-weight: 600;
+line-height: 50px;
+}
+.dish-10 p {
+    font-family: font1;
+}
+.dish-10 span {
+    font-family: font1;
+    font-weight: 600;
+}
+.dish-14 h5 {
+    text-transform: uppercase;
+    font-family: font1;
+    font-weight: 600;
+line-height: 50px;
+}
+.dish-14 p {
+    font-family: font1;
+}
+.dish-14 span {
+    font-family: font1;
+    font-weight: 600;
+}
+.dish-16 h5 {
+    text-transform: uppercase;
+    font-family: font1;
+    font-weight: 600;
+line-height: 50px;
+}
+.dish-16 p {
+    font-family: font1;
+}
+.dish-16 span {
+    font-family: font1;
+    font-weight: 600;
+}
+                                  /*section-5*/
+.navigation-5 img {
+    float: right;
+}
+.navigation {
+    background: #d4d8d9;
+}
+.circle-6 {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+}
+.circle-7 {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 30px;
+}
+.circle-8 {
+    border-radius: 100%;
+    background: #293b3f;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 30px;
+}
+.navigation-6 {
+    display: flex;
+    list-style: none;
+font-family: font1;
+    font-weight: 600;
+}
+.navigation-6 a {
+    text-decoration: none;
+    color: #293b3f;
+}
+.navigation-4 {
+    text-align: center;
+    color: #293b3f;
+    position: relative;
+    top: 80px;
+}
+.navigation-4 h3 {
+    font-family: font1;
+    font-weight: 600;
+}
+.navigation-4 p {
+    font-family: font1;
+    font-size: 19px;
+}
+                            /*section-6*/
+.discover {
+    background-image: url('../images/2457348_23.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+}
+.discover-1 {
+    background: radial-gradient(white, #fbf7f7ad);
+}
+.heading {
+    text-align: center;
+}
+.heading h3 {
+    font-family: font;
+    text-transform: capitalize;
+    font-size: 70px;
+    line-height: 37px;
+}
+.heading p {
+    font-family: font1;
+    text-transform: uppercase;
+    color: #ab680b;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 43px;
+}
+.discover-4 h6 {
+    text-transform: uppercase;
+font-family: font1;
+font-weight: 600;
+}
+.discover-4 p {
+font-family: font1;
+}
+.discover-4 span {
+font-weight: 600;
+}
+.discover-6 h6 {
+    text-transform: uppercase;
+font-family: font1;
+font-weight: 600;
+}
+.discover-6 p {
+font-family: font1;
+}
+.discover-6 span {
+font-weight: 600;
+}
+.discover-9 h6 {
+    text-transform: uppercase;
+font-family: font1;
+font-weight: 600;
+}
+.discover-9 p {
+font-family: font1;
+}
+.discover-9 span {
+font-weight: 600;
+}
+.discover-11 h6 {
+    text-transform: uppercase;
+font-family: font1;
+font-weight: 600;
+}
+.discover-11 p {
+font-family: font1;
+}
+.discover-11 span {
+font-weight: 600;
+}
+.discover-14 h6 {
+    text-transform: uppercase;
+font-family: font1;
+font-weight: 600;
+}
+.discover-14 p {
+font-family: font1;
+}
+.discover-14 span {
+font-weight: 600;
+}
+.discover-16 h6 {
+    text-transform: uppercase;
+font-family: font1;
+font-weight: 600;
+}
+.discover-16 p {
+font-family: font1;
+}
+.discover-16 span {
+font-weight: 600;
+}
+                                      /*section-8*/
+.book h1 {
+    text-align: center;
+    font-family: font;
+    font-size: 55px;
+}
+.book {
+    background: #2a3c40;
+    color: #fff;
+    font-family: font1;
+    font-weight: 600;
+}
+.book h6 {
+    font-weight: 600;
+}
+.book-3 {
+    background: #2a3c40;
+color:#fff;
+}
+.book-8 {
+    background: #2a3c40;
+color:#fff;
+}
+.book-4 input {
+    background: #2a3c40;
+color:#fff;
+}
+.book-9 input {
+    background: #2a3c40;
+color:#fff;
+}
+.book-10 input {
+    background: #2a3c40;
+color:#fff;
+}
+.book-5 input {
+    background: #2a3c40;
+color:#fff;
+}
+.book-12 button {
+    background: #2a3c40;
+color:#fff;
+font-weight: 600;
+font-family:font1;
+}
+input.form-control::placeholder {
+    color: #fff;
+}
+.error{
+    border: 2px solid red;
+}
+.error-msg{
+    color:red;
+}
+                               /*section-9*/
+.heading {
+    text-align: center;
+}
+.heading h3 {
+    font-family: font;
+    text-transform: capitalize;
+    font-size: 70px;
+    line-height: 37px;
+}
+.heading p {
+    font-family: font1;
+    text-transform: uppercase;
+    color: #ab680b;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 43px;
+}
+                                  /*section-10*/
+.food-6 {
+    background: #fff;
+height: 185px;
+}
+.foods {
+    background: #d4d8d9;
+}
+.food-7 {
+    background: #fff;
+height: 185px;
+}
+.food-8 {
+    background: #fff;
+height: 185px;
+}
+.food-6 span {
+    font-family: font1;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.food-6 h6 {
+    font-family: font1;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.food-6 p {
+    font-family: font1;
+    font-size: 14px;
+}
+.food button {
+    border: none;
+    background: #fff;
+    border-bottom: 5px solid #f4820b;
+    font-family: 'font2';
+    font-weight: 600;
+}
+.food-7 span {
+    font-family: font1;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.food-7 h6 {
+    font-family: font1;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.food-7 p {
+    font-family: font1;
+    font-size: 14px;
+}
+.food-8 span {
+    font-family: font1;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.food-8 h6 {
+    font-family: font1;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+}
+.food-8 p {
+    font-family: font1;
+    font-size: 14px;
+}
+                             /*section-11*/
+.linda {
+    background: #2a3c40;
+    color: #fff;
+    text-align: center;
+}
+.linda-2 h6{
+font-family:font1;
+font-weight:600;
+}
+.linda-2 p{
+font-family:font1;
+}
+                           /*section-12*/
+.footer {
+    background: #d4d8d9;
+}
+.footer-3 h5{
+font-family:font2;
+font-weight:600;
+}
+.footer-3 p{
+font-family:font1;
+}
+.footer-4 h6{
+font-family:font2;
+font-weight:600;
+}
+.footer-5 h6{
+font-family:font2;
+font-weight:600;
+}
+.footer-6 h6{
+font-family:font2;
+font-weight:600;
+}
+.footer a{
+    text-decoration: none;
+    color: #2a3c40;
+}
+.footer ul {
+    list-style: none;
+font-family:font2;
+}
+.footer-4 ul {
+ font-weight:600;
+}
+.footer-5 ul {
+ font-weight:600;
+}

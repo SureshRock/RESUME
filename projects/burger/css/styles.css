@@ -1,0 +1,218 @@
+.burger_house{
+    background: url('../images/bg.jpg') no-repeat 0px 0px;
+    background-size:cover;
+  }
+  .delivery{
+    background:url('../images/assets_06.png') no-repeat 0px 10px;
+    font-family: mont;
+    font-size: 13px;
+  }
+  .burger_logo{
+    justify-content: space-between;
+}
+.address{
+  text-align: end;
+}
+div#navbar {
+  justify-content: end;
+}
+  @font-face {
+    font-family: alfa;
+    src: url('../fonts/AlfaSlabOne-Regular.ttf');
+  }
+  @font-face {
+    font-family: bebas ;
+    src: url('../fonts/BebasNeue-Regular.ttf');
+  }
+  @font-face {
+    font-family: mont;
+    src: url('../fonts/Montserrat-Bold.otf');
+  }
+  .lists{
+    font-family: bebas;
+    font-size: 17px;
+    letter-spacing: 2px; 
+  }
+  .ul_lists{
+    gap: 25px;
+  }
+  .burger_day{
+  display: block;
+  font-family: alfa;
+  text-transform: uppercase;
+  font-size:95px;
+  text-shadow: 4px 4px rgba(255, 255, 255, 0.712);
+  line-height: 128px;
+  color: rgba(31, 0, 0, 0.938);
+  }
+  .great_taste{
+    border: 2px dashed rgb(31,0,0,0.938);
+    display: inline-block;
+    font-family: bebas;
+    font-size: 20px;
+    color: rgb(31, 0, 0,0.938);
+  }
+  .burger_date{
+    font-family: alfa;
+    text-transform: uppercase;
+    font-size:50px;
+    text-shadow: 4px 4px rgba(255, 255, 255, 0.712);
+    line-height: 30px;
+    color: rgb(31, 0, 0,0.938);
+  }
+  .burger_price {
+    width: 153px;
+    height: 153px;
+    background-color: rgb(226, 1, 1);
+    border-radius: 100%;
+    padding-top: 11px;
+    position: absolute;
+    bottom: 0px;
+    left: 24px;
+  }
+  .burger_cost {
+    width: 130px;
+    height: 130px;
+    border: 2px dashed white;
+    border-radius: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .dolor,.cents,.remain{
+    font-family: bebas!important;
+    color: white!important;
+  }
+  .dolor{
+   font-size: 65px; 
+  }
+  .cents{
+    font-size: 30px;
+  }
+  .remain {
+    display: block;
+    font-size: 35px;
+    letter-spacing: 7px;
+    padding-left: 7px;
+    line-height: 0px;
+  }
+  .burger_image{
+    position: relative;
+  }
+  button.tasty_burger {
+    background: #fec133;
+    font-family: 'bebas';
+    font-size: 23px;
+    border: none;
+}
+.choose_heading {
+    font-family: 'alfa';
+    text-transform: uppercase;
+}
+.choose_para {
+    font-family: 'mont';
+}
+.lorem_heading {
+    font-family: 'bebas';
+}
+.lorem_para {
+    font-family: 'mont';
+    font-size: 15px;
+}
+.order_now {
+    background: #de1c1c;
+    border: none;
+    font-family: 'alfa';
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+.discover_heading {
+    font-family: 'bebas';
+    font-size: 25px;
+}
+.upcoming_heading {
+    font-family: 'alfa';
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 40px;
+}
+.upcoming_para {
+    font-family: 'mont';
+}
+.reservation {
+    background: url('../images/burger_single.png'), url('../images/burger_on_plate.png'), url('../images/sauce_bottle.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px,right 200%,105px 220px;
+    height: 100vh;
+}
+.reservation_span {
+    font-family: 'bebas';
+    font-size: 25px;
+}
+.reservation_heading {
+    font-family: 'alfa';
+    text-transform: uppercase;
+}
+input {
+    outline: none;
+    width: 100%;
+    padding: 15px 0px 15px 20px;
+}
+input::placeholder{
+  color: #000;
+  font-family: 'bebas'!important;
+}
+input[type='date']{
+  text-transform: uppercase;
+  color: #000;
+  font-family: 'bebas'!important;
+}
+.table {
+    padding: 16px 0px;
+    font-family: 'alfa';
+    text-transform: uppercase;
+}
+
+  .copyrights{
+    background: url('../images/footer_bg.jpg') no-repeat 0px 0px;
+    background-size: cover;
+    color:white;
+}
+.mail {
+    display: block;
+}
+.house_para {
+    font-family: 'mont';
+    font-size: 15px;
+}
+.house_sector2, .copyrights_issue {
+    font-family: 'bebas';
+}
+.underline {
+    text-decoration: none;
+    color: white;
+}
+.underline:hover{
+   color: white; 
+} 
+.total{
+    text-align: end;
+}
+li {
+    list-style: none;
+}
+ul {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+} 
+.sector1,.sector2,.sector3{
+  justify-content: center;
+}
+.error{
+  border: 2px solid red;
+}
+.error-msg{
+  color: red;
+  font-weight: bold;
+}

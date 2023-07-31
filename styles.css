@@ -1,0 +1,39 @@
+.data-row,.data-row2,.data-row3,.data-row4,.data-row5,.data-row6,.data-row7{
+    justify-content: center;
+}
+.data-col1 span,.data-col2 p,.data-col3 p,.data-col6 span,.data-col7 span{
+    font-weight: 400;
+    font-size: 16px;
+}
+table {
+    border-collapse: collapse;
+}
+.data-col5 table{
+    width: 100%;
+}
+.data-col5 th {
+    border: 2px solid #000;
+}
+.data-col5 td {
+    border: 2px solid #000;
+}
+.address{
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.data-col7 {
+    text-align: end;
+}
+.data-col3 dl li {
+    text-transform: capitalize;
+}
+.data {
+    font-weight: 500;
+    font-size: 19px;
+}
+.india{
+    color: navy !important;
+}

@@ -1,0 +1,9 @@
+
+@media screen and (max-width:768px){
+    .dish-7{
+        flex-direction: column-reverse;
+    }
+    .dish-4, .dish-6, .dish-8, .dish-10, .dish-14, .dish-16 {
+        padding-bottom: 20px;
+    }
+}

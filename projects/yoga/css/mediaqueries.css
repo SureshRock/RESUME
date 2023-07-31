@@ -1,0 +1,151 @@
+@media screen and (max-width:1400px) {
+    .dont_miss h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }    
+}
+@media screen and (max-width:1200px) {
+    .chooses h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .dont_miss h1 {
+        font-size: 43px;
+        line-height: 43px;
+    }
+}
+@media screen and (max-width:992px) {
+    .colo1 {
+        height: fit-content;
+    }
+    nav ul {
+        gap: 0px;
+    }
+    .chooses h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .yoga_class h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    nav {
+        flex-wrap: nowrap!important;
+        padding-top: 0px!important;
+    }
+    .ou_stats h1 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+    .best_1 h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .news_1 h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .price_1, .price_2 {
+        margin: 0px 0px 50px 0px;
+    }
+    .price_3 {
+        height: fit-content;
+    }
+    .social_media {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:768px) {
+    .colo1 {
+        height: fit-content;
+    }
+    nav ul {
+        gap: 0px;
+    }
+    .chooses h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    nav {
+        flex-wrap: wrap!important;
+        padding-top: 10px!important;
+    }
+    nav div {
+        margin: 10px 0px 0px 0px;
+    }
+    .best_1 h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .news_1 h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .social_media {
+        font-size: 18px;
+    }
+    .all {
+        padding: 0px 0px 35px 0px;
+    }
+}
+@media screen and (max-width:576px) {
+    .colo1 {
+        padding: 20px 0px!important;
+    } 
+    nav ul {
+        gap: 0px;
+    }
+    .yoga_class button {
+        padding: 2px 20px 3px 20px;
+    }
+    .yoga_class h1 {
+        font-family: 'baloo';
+        font-size: 75px;
+        line-height: 75px;
+    }
+    .chooses h1 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .choose_hepa h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .ou_stats {
+        padding: 50px 0px;
+    }
+    .stats1, .stats2, .stats3 {
+        border: 4px solid #529995;
+        border-radius: 100%;
+        width: 325px!important;
+        height: 325px;
+        margin: 0px 0px 40px 0px;
+    }
+    .best_1 {
+        padding: 50px 40px;
+    }
+    .best_1 button {
+        border-radius: 3px;
+        margin: 15px 0px 0px 0px;
+    }
+    .news_1 {
+        padding: 50px 40px;
+    }
+    .news_1 button {
+        border-radius: 3px;
+        margin: 15px 0px 0px 0px;
+    }
+    .dont_miss h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .all {
+        padding: 0px 0px 35px 0px;
+    }
+    .yoga_class h1,.choose_hepa h1,.ou_stats h1,.pricing_hepa h1{
+        font-size: 50px;
+    }
+    .dont_miss h1{
+        font-size: 30px;
+    }
+}

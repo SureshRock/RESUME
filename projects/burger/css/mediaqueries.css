@@ -1,0 +1,96 @@
+@media screen and (max-width:576px) {
+    .address {
+        text-align: start;
+    }
+    .lists {
+        font-family: bebas;
+        font-size: 17px;
+        letter-spacing: 2px;
+        justify-content: start!important;
+    }
+    .burger_nav {
+        padding: 0px 0px 0px 50px;
+    }
+    .ul_lists {
+        gap: 0px;
+        text-align:start!important;
+    }
+    .popular_burger1, .more {
+        padding-bottom: 20px;
+    }
+    .burger_day {
+        font-size: 65px;
+    }
+    .burger_date {
+        font-size: 40px;
+        line-height: 10px;
+    }
+    .burger_price {
+        width: 130px;
+        height: 130px;
+        bottom: -10px;
+        left: 10px;
+
+      }
+      .burger_cost {
+        width: 110px;
+        height: 110px;
+      }
+      .great_taste {
+        font-size: 17px;
+    }
+      .dolor {
+        font-size: 50px;
+    }
+    .name, .date, .people{
+        padding: 0px 12px 20px 12px;
+    }
+    .upcoming_heading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .total ul {
+        justify-content: start;
+    }
+    .copyrights1 {
+        flex-direction: column-reverse;
+    }
+    .social_media {
+        margin: 0px 0px 0px -30px;
+    }
+    .reservation {
+        height: 800px!important;
+    }
+}
+@media screen and (max-width:768px) {
+    .popular_burger1, .more {
+        padding-bottom: 20px;
+    }
+    .reservation {
+        background-position: 0px 0px,right 160%,105px 220px;
+        height: 110vh;
+    }
+}
+@media screen and (max-width:992px) {
+    .lists {
+        font-family: bebas;
+        font-size: 17px;
+        letter-spacing: 2px;
+        justify-content: end;
+    }
+    .burger_day {
+        font-size: 70px;
+        line-height: 100px;
+    }
+    .great_taste {
+        font-size: 15px;
+    }
+    .burger_date {
+        font-size: 40px;
+    }
+    .ul_lists {
+        gap: 0px;
+        text-align: end;
+    }
+}
+
