@@ -123,8 +123,8 @@ body {
   .user-card-info:before {
    display: none;
   }
-  ol{
-    text-align: start!important;
+  ol li{
+    text-align: start;
   }
  }
  
