@@ -123,6 +123,9 @@ body {
   .user-card-info:before {
    display: none;
   }
+  ol{
+    text-align: start;
+  }
  }
  
  
