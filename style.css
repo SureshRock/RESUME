@@ -124,7 +124,7 @@ body {
    display: none;
   }
   ol{
-    text-align: start;
+    text-align: start!important;
   }
  }
  
