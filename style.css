@@ -1,0 +1,128 @@
+body,html{
+   height: 100%;
+}
+.user-card-info a {
+  font-weight: bold!important;
+}
+body {
+  background: #5dc2fd9e;
+  font-family: 'Montserrat', sans-serif;
+}
+ .wrapper{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top:130px;
+ }
+ .user-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 40px;
+	width: 650px;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+ 
+.user-card:before {
+  content: '';
+  position: absolute;
+  height: 300%;
+  width: 82px;
+  background: #262626;
+  top: -165px;
+  left: -330px;
+  z-index: 0;
+  transform: rotate(35deg);
+}
+ 
+ .user-card-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+   z-index: 3;
+ }
+ 
+ .user-card-img img {
+   width: 150px;
+   height: 200px;
+   object-fit: cover;
+   padding-top: 50%;
+ }
+ 
+ .user-card-info {
+   text-align: center;
+   position: relative;
+ }
+ .user-card-info:before {
+  content: '';
+  position: absolute;
+  height: 300%;
+  width: 82px;
+  background: #262626;
+  top: -50px;
+  right: 30px;
+  z-index: 0;
+  transform: rotate(35deg);
+}
+ .user-card-info h2 {
+   font-size: 24px;
+   margin: 0;
+   margin-bottom: 10px;
+   font-family: 'Bebas Neue', sans-serif;
+ }
+ 
+ .user-card-info p {
+   font-size: 14px;
+   margin-bottom: 2px;
+ }
+ .user-card-info p span {
+	font-weight: 700;
+	margin-right: 10px;
+}
+ @media only screen and (min-width: 768px) {
+   .user-card {
+     flex-direction: row;
+     align-items: flex-start;
+   }   
+   .user-card-img {
+     margin-right: 25px;
+     margin-bottom: 0;
+   }
+ 
+   .user-card-info {
+     text-align: left;
+   }
+ }
+
+ @media (max-width: 767px){
+   .wrapper{
+      padding-top: 3%;
+   }
+   .user-card:before {
+      width: 300%;
+      height: 300px;
+      transform: rotate(0);
+   }
+   .user-card-info h2 {
+      margin-top: 25px;
+      font-size: 35px;
+   }
+   .user-card-info p span {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 18px;
+   }
+   .user-card-img img {
+    padding-top: 0;
+  }
+  .user-card-info:before {
+   display: none;
+  }
+ }
+ 
+ 
