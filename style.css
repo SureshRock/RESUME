@@ -100,9 +100,9 @@ body {
  }
 
  @media (max-width: 767px){
-   .wrapper{
-      padding-top: 3%;
-   }
+  .wrapper {
+    padding: 15px 15px;
+}
    .user-card:before {
       width: 300%;
       height: 300px;
